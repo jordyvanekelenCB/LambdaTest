@@ -12,7 +12,6 @@ Resources:
       MemorySize: 128
       Timeout: 30
       Role: 'arn:aws:iam::937333453566:role/MyLambdaRole'
-      Events:
       Environment:
         Variables:
           REGION: eu-west-1
