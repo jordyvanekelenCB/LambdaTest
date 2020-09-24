@@ -2,7 +2,7 @@ import json
 
 print('Loading function...')
 
-print('I exissst!')
+print('I exisssst!')
 
 def lambda_handler(event, context):
     print("Received event: " + json.dumps(event, indent=2))
