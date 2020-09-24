@@ -22,7 +22,7 @@ def lambda_handler(event, context):
     return {
         "statusCode": 200,
         'headers': { 'Content-Type': 'application/json' },
-        "body": json.dumps(event)
+        "body": json.dumps(event, indent=4, sort_keys=True)
     }
 
     # return '{"key": "val"}'
